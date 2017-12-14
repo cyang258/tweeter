@@ -1,0 +1,36 @@
+nav {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: #3B5998;
+  font-color: #e8fdff;
+  padding: 0px 2em;
+  z-index: 1;
+}
+
+#nav-bar .logo {
+  float: left;
+  width: 80px;
+  height:80px;
+}
+
+#nav-bar .header {
+  color: white;
+  position: relative;
+  top: 18px;
+  left: 10px;
+  font-size: 2em;
+}
+
+/*#nav-bar .btn {
+  background-color: #7CFC00;
+  margin-top:4%;
+  top:18px;
+  font-size: 1em;
+}*/
+
+#nav-bar .btn {
+    margin-top:4%;
+    top:18px;
+    font-size: 1em;
+}
