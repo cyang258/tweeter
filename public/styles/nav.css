@@ -22,15 +22,9 @@ nav {
   font-size: 2em;
 }
 
-/*#nav-bar .btn {
-  background-color: #7CFC00;
-  margin-top:4%;
-  top:18px;
-  font-size: 1em;
-}*/
-
 #nav-bar .btn {
-    margin-top:4%;
+    background-color: #7CFC00;
+    margin-top: 1.5em;
     top:18px;
     font-size: 1em;
 }

@@ -10,11 +10,13 @@ $(document).ready(function() {
   });
 
   function createTweetElement(x) {
+
     let name = x.user.name;
     let handle = x.user.handle;
     let content = x.content.text;
-    let createdDate = x.created_at;
     let img = x.user.avatars.small;
+    let createdDate = moment(x.created_at).fromNow();
+
 
     var tweet_test = `
     <section class="tweet">
@@ -28,7 +30,7 @@ $(document).ready(function() {
           <p3>${content}</p3>
         </main>
         <footer>
-          <p4>${createdDate}</p4>
+          <p4>posted at ${createdDate}</p4>
           <i class="fa fa-flag"></i>
           <i class="fa fa-refresh"></i>
           <i class="fa fa-heart"></i>
