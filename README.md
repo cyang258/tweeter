@@ -4,7 +4,8 @@ Tweeter is a simple, single-page Twitter clone build with HTML, CSS, JS, jQuery 
 
 
 ## Final Product
-
+!["Screenshot of tweet with compose box"](https://github.com/cyang258/tweeter/blob/master/docs/with_tweet_box.png)
+!["screenshot of tweets"](https://github.com/cyang258/tweeter/blob/master/docs/with_tweet_box_hidden.png)
 
 ## Dependencies
 
